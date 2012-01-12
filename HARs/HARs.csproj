@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F2B8AFB-716E-4029-874A-9284223490A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BrrrBayBay.HARs</RootNamespace>
+    <AssemblyName>HARs</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\HARs.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.65.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abouHARsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="abouHARsForm.Designer.cs">
+      <DependentUpon>abouHARsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoTrackPlacementModes.cs" />
+    <Compile Include="dbComm.cs" />
+    <Compile Include="EditGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditGroupForm.Designer.cs">
+      <DependentUpon>EditGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditUserForm.Designer.cs">
+      <DependentUpon>EditUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameControl.Designer.cs">
+      <DependentUpon>GameControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameScheduler.cs" />
+    <Compile Include="HARsMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HARsMainForm.Designer.cs">
+      <DependentUpon>HARsMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LeagueRaceSetup.cs" />
+    <Compile Include="loadGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadGameForm.Designer.cs">
+      <DependentUpon>loadGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGameForm.Designer.cs">
+      <DependentUpon>NewGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PerformRaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PerformRaceForm.Designer.cs">
+      <DependentUpon>PerformRaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="abouHARsForm.resx">
+      <DependentUpon>abouHARsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditGroupForm.resx">
+      <DependentUpon>EditGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditUserForm.resx">
+      <DependentUpon>EditUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HARsMainForm.resx">
+      <DependentUpon>HARsMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeagueControl.resx">
+      <DependentUpon>LeagueControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadGameForm.resx">
+      <DependentUpon>loadGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGameForm.resx">
+      <DependentUpon>NewGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerformRaceForm.resx">
+      <DependentUpon>PerformRaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaceSetupControl.resx">
+      <DependentUpon>RaceSetupControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaceTimeBox.resx">
+      <DependentUpon>RaceTimeBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectUsersForm.resx">
+      <DependentUpon>SelectUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeTrialControl.resx">
+      <DependentUpon>TimeTrialControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrackLayoutControl.resx">
+      <DependentUpon>TrackLayoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForm.resx">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="HARsDB.s3db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RaceSetupControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RaceSetupControl.Designer.cs">
+      <DependentUpon>RaceSetupControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaceTimeBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RaceTimeBox.Designer.cs">
+      <DependentUpon>RaceTimeBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectUsersForm.Designer.cs">
+      <DependentUpon>SelectUsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeTrialControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrackLayoutControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrackLayoutControl.Designer.cs">
+      <DependentUpon>TrackLayoutControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForm.Designer.cs">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HarDataModel\HarDataModel.csproj">
+      <Project>{1135FFB2-1586-47C9-B5B3-4DF5C2216494}</Project>
+      <Name>HarDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpriteCommHandler\SpriteCommHandler.csproj">
+      <Project>{C9C33924-581D-42AA-8F60-CFE97DEF789E}</Project>
+      <Name>SpriteCommHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TextLogging\TextLogging.csproj">
+      <Project>{36FE4BE3-48DF-45AD-8C98-99FB5DCF3316}</Project>
+      <Name>TextLogging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\logos.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

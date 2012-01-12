@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HARs">
+</Property><Property Name="Solution File" Value="C:\Users\Joost\tmp\trunk\HARs\HARs.sln">
+</Property><Property Name="Date" Value="donderdag 12 januari 2012">
+</Property><Property Name="Time" Value="11:02">
+</Property></Properties><Event ErrorLevel="0" Project="HARs" Source="HARs\HARs.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HARs" Source="HARs\HARs.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpriteCommHandler" Source="SpriteCommHandler\SpriteCommHandler.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SpriteCommHandler" Source="SpriteCommHandler\SpriteCommHandler.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpriteCommTester" Source="SpriteCommTester\SpriteCommTester.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SpriteCommTester" Source="SpriteCommTester\SpriteCommTester.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TextLogging" Source="TextLogging\TextLogging.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TextLogging" Source="TextLogging\TextLogging.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HarDataModel" Source="HarDataModel\HarDataModel.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HarDataModel" Source="HarDataModel\HarDataModel.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HARs.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HARs.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HARs" Source="HARs\HARs.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SpriteCommHandler" Source="SpriteCommHandler\SpriteCommHandler.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SpriteCommTester" Source="SpriteCommTester\SpriteCommTester.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TextLogging" Source="TextLogging\TextLogging.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="HarDataModel" Source="HarDataModel\HarDataModel.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

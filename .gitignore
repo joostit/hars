@@ -12,3 +12,5 @@
 /HARs/obj
 /HarDataModel/bin
 /HarDataModel/obj
+.vs/
+*.user

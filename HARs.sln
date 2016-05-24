@@ -1,13 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HARs", "HARs\HARs.csproj", "{5F2B8AFB-716E-4029-874A-9284223490A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteCommHandler", "SpriteCommHandler\SpriteCommHandler.csproj", "{C9C33924-581D-42AA-8F60-CFE97DEF789E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteCommTester", "SpriteCommTester\SpriteCommTester.csproj", "{4988123A-0A55-4491-B83E-8DB7AE186839}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HARsoft", "HARsoft\HARsoft.vdproj", "{B95CA0F9-042D-4E52-9472-AFAAB48FF0BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextLogging", "TextLogging\TextLogging.csproj", "{36FE4BE3-48DF-45AD-8C98-99FB5DCF3316}"
 EndProject
@@ -31,8 +31,6 @@ Global
 		{4988123A-0A55-4491-B83E-8DB7AE186839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4988123A-0A55-4491-B83E-8DB7AE186839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4988123A-0A55-4491-B83E-8DB7AE186839}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B95CA0F9-042D-4E52-9472-AFAAB48FF0BF}.Debug|Any CPU.ActiveCfg = Debug
-		{B95CA0F9-042D-4E52-9472-AFAAB48FF0BF}.Release|Any CPU.ActiveCfg = Release
 		{36FE4BE3-48DF-45AD-8C98-99FB5DCF3316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36FE4BE3-48DF-45AD-8C98-99FB5DCF3316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36FE4BE3-48DF-45AD-8C98-99FB5DCF3316}.Release|Any CPU.ActiveCfg = Release|Any CPU
